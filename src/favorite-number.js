@@ -12,6 +12,9 @@ class FavoriteNumber extends React.Component {
     const isValid = !numberEntered || (number >= min && number <= max)
     return (
       <div>
+        {/* <label>
+          Remember me <input type="checkbox" />
+        </label> */}
         <label htmlFor="favorite-number">Favorite Number</label>
         <input
           id="favorite-number"
